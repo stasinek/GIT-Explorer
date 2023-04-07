@@ -14,4 +14,4 @@ TODO: add some pdcurses,ncurses or even Qt based GUI being able to execute scrip
 Tried to find such tool, cause i have ~50GB of sourcecode, to analyze, 4bilion useless files, store on VHD virtual disk, so its easier to make backup, goal is to keep them in zips, goal is maybe to use ZPAQ in addition to GIT
 This is too dangerous to be used on mine projects directory downloaded tons of code never used, never checked, all is too complicated
 By end of day reed it, and make mine own. But still have to do something with that pile of "garbage"
-That is goal of this project
+That is goal of this project: Potential candidate for GUI Guitar since it's QT based
