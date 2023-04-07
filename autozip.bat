@@ -1,0 +1,10 @@
+@ECHO OFF
+SETLOCAL
+CALL auto-debug.bat
+:TESTUJ
+SET "WKATALOGU=%1"
+IF [%1]==[] SET "WKATALOGU="
+FOR /D %%G in ("%WKATALOGU%\*") DO CALL autozip-zipuj.bat %%G %%G
+:KONIEC
+IF %AUTODEBUG%==1 @ECHO KONIEC w %WKATALOGU%  
+ENDLOCAL
