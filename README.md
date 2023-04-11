@@ -8,6 +8,7 @@ fetchall.sh "%1" is same as autofetch either on Linux or MSYS32, just fetching a
 all files with "_name.bat" are just helpers, executed by main script, in witch you can define action
 autodebug.bat will ask question whenever show additional data - be verbrose or quiet
 autoconfig.bat can configure scripts, as for now give name for directory pattern you want to skip TODO: be able to read data from .conf file 
+git-filterout-do.bat - remove %1 file from history for example big binary blobs
 
 TODO: fixes specially autofetch cause it doesn work, simplify autozip cause it get too complicated too much parameters %1,%2,%3
 TODO: add some pdcurses,ncurses or even Qt based GUI being able to execute scripts, show list of subdirectories with git status, size, existence of ZIP backup, being able to configure how often update zips, create list of potential directories to git init empty git, detect type of language used, create git init and/or try to find reposistory on github and fetch it
